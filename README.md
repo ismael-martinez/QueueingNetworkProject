@@ -1,6 +1,8 @@
 # RefugeeQueueingSimulation
 A queueing network simulation written in Python using SimPy, to model refugees arriving into a system, and moving through the language course network.
 
+To run, execute Simulation.py with the appropriate parameters.
+
 Three CSV input files are expected, as well as paths to two output csv files.
 -n <network csv> -l <level csv> -e <econ csv> -a <assignment policy> ' \
                   '-p <priority policy> -w <weeks> -d <surge delay> -q <output csv> -o <output weekly queue> -r <probability distribution>' \
